@@ -30,19 +30,19 @@ ProjetTree
     - SpikeTrain_doubleBoostP.h
 
 # To execute the six scenarios: 
-  Double precision:<br>
+  - Double precision:<br>
     // A neural network composed of 100 excitatory neurons <br>
     $	HH_BBT2017_doubleP -pExcN 1.0  <br>
     // A neural network composed of 80/20 of excitatory/inhibitory neurons respectively. <br>
     $	HH_BBT2017_doubleP -pExcN 0.8 -vInh 10 <br>
 
-  Long Double precision<br>
+  - Long Double precision<br>
     // A neural network composed of 100 excitatory neurons with C/C++ long double precision <br>
     $	HH_BBT2017_longDoubleP -pExcN 1.0  <br>
     // A neural network composed of 80/20 of excitatory/inhibitory neurons respectively with C/C++ long double precision <br>
     $	HH_BBT2017_longDoubleP -pExcN 0.8 -vInh 10 <br>
   
-  Boost Double precision<br>
+  - Boost Double precision<br>
     // A neural network composed of 100 excitatory neurons with floating-point with 100 decimals digits precision implemented by Boost <br>
     $	HH_BBT2017_doubleBoostP -pExcN 1.0 <br>
     // A neural network composed of 80/20 of excitatory/inhibitory neurons respectively with 100 decimals digits precision implemented by Boost<br>
