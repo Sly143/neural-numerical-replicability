@@ -2,14 +2,14 @@
 This project was implemented using C/C++ program language. The ODEs were solved using Runge–Kutta fourth-order method (RK4), implemented by Boost C++ library, specifically Boost.Numeric.Odeint module.
 
 # Software requirements:
-- C/C++ compiler (ex: gcc)<br>
+- C/C++ compiler (ex: gcc)
 - Boost C++ libraries (http://www.boost.org)
     ODEint module, to solving ordinary differential equations, is include in the distribution 
 
 The source code includes the following files:
 ProjetTree
-  Double precision
-    HH_BBT2017_doubleP.cpp
+  - Double precision
+    - HH_BBT2017_doubleP.cpp
     iappDist_doubleP.cpp
     iappDist_doubleP.h
     SpikeTrain_doubleP.cpp
@@ -30,7 +30,7 @@ ProjetTree
     SpikeTrain_doubleBoostP.h
 
 # To execute the six scenarios: 
-  Double precision:
+  Double precision:<br>
     // A neural network composed of 100 excitatory neurons 
     $	HH_BBT2017_doubleP -pExcN 1.0  
     // A neural network composed of 80/20 of excitatory/inhibitory neurons respectively. 
