@@ -34,7 +34,7 @@ ProjetTree
     // A neural network composed of 100 excitatory neurons <br>
     $	HH_BBT2017_doubleP -pExcN 1.0  <br>
     // A neural network composed of 80/20 of excitatory/inhibitory neurons respectively. <br>
-    $	HH_BBT2017_doubleP -pExcN 0.8 -vInh 10 <br>
+    >	HH_BBT2017_doubleP -pExcN 0.8 -vInh 10 <br>
 
   Long Double precision<br>
     // A neural network composed of 100 excitatory neurons with C/C++ long double precision <br>
