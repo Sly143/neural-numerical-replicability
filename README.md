@@ -2,7 +2,7 @@
 This project was implemented using C/C++ program language. The ODEs were solved using Runge–Kutta fourth-order method (RK4), implemented by Boost C++ library, specifically Boost.Numeric.Odeint module.
 
 # Software requirements:
-- C/C++ compiler (ex: gcc)
+- C/C++ compiler (ex: gcc)<br>
 - Boost C++ libraries (http://www.boost.org)
     ODEint module, to solving ordinary differential equations, is include in the distribution 
 
