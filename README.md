@@ -10,11 +10,11 @@ This project was implemented using C/C++ program language. The ODEs were solved 
 The source code includes the following files:<br>
 ProjetTree
   - Double precision
-    - HH_BBT2017_double.cpp
-    - iappDist_double.cpp
-    - iappDist_double.h
-    - SpikeTrain_double.cpp
-    - SpikeTrain_double.h
+    - HH_BBT2017_doubleP.cpp
+    - iappDist_doubleP.cpp
+    - iappDist_doubleP.h
+    - SpikeTrain_doubleP.cpp
+    - SpikeTrain_doubleP.h
     - MakefileMacLinux
     - MakefileWin
     - ./results
