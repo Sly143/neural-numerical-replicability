@@ -1,0 +1,50 @@
+# Project: HH_BBT2017_Boost
+
+# Path to the boost library DIR
+INCS     =  -I"C:/boost_1_71_0" -I"./"
+CXXINCS  = -I"C:/cygwin64/gcc-9.2.0/include" -I"C:/Users/wblan/boost_1_71_0" -I"./"
+
+# Compiler and version
+CPP      = g++-9.2.0.exe
+CC       = gcc-9.2.0.exe
+
+# Object files
+OBJ      = HH_BBT2017_Boost.o iappDist_Boost.o SpikeTrain_Boost.o
+LINKOBJ  = HH_BBT2017_Boost.o iappDist_Boost.o SpikeTrain_Boost.o
+
+# Libraries to link
+LIBS     = -L"C:/cygwin64/gcc-9.2.0/lib" -static-libgcc -L"C:/boost_1_71_0/libs"
+
+# Include files
+CXXFLAGS = $(CXXINCS) 
+
+# Extra flags to give to the C preprocessor and programs
+CFLAGS   = $(INCS) 
+
+WINDRES  = windres.exe
+BIN      = HH_BBT2017_Boost.exe
+RM       = rm.exe -f
+
+#============================================================================
+# Targets
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+# Targets to build the object files
+
+HH_BBT2017_Boost.o: HH_BBT2017_Boost.cpp
+	$(CPP) -c HH_BBT2017_Boost.cpp -o HH_BBT2017_Boost.o $(CXXFLAGS)
+
+iappDist_Boost.o: iappDist_Boost.cpp
+	$(CPP) -c iappDist_Boost.cpp -o iappDist_Boost.o $(CXXFLAGS)
+
+SpikeTrain_Boost.o: SpikeTrain_Boost.cpp
+	$(CPP) -c SpikeTrain_Boost.cpp -o SpikeTrain_Boost.o $(CXXFLAGS)

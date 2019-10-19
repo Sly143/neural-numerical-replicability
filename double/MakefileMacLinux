@@ -1,0 +1,49 @@
+# Project: HH_BBT2017_doubleP
+
+# Path to the compiler DIR
+COMPILER_DIR   = /usr/local/gcc-9.2.0
+
+# Path to the boost library DIR
+BOOST_DIR = /home/libraries/boost_1_71_0
+
+# Compiler and version
+CPP      = g++-9.2.0
+
+# Object files
+OBJ      = HH_BBT2017_doubleP.o iappDist_doubleP.o SpikeTrain_doubleP.o
+LINKOBJ  = HH_BBT2017_doubleP.o iappDist_doubleP.o SpikeTrain_doubleP.o
+
+# Libraries to link
+LIBS     = -L"$(COMPILER_DIR)/lib" -static-libgcc -L"$(BOOST_DIR)/libs"
+
+# Include files
+CXXINCS  = -I"$(COMPILER_DIR)/include" -I"./"
+
+# Extra flags to give to the C preprocessor and programs
+CXXFLAGS = $(CXXINCS) 
+
+BIN      = HH_BBT2017_doubleP
+RM       = rm -f
+
+#============================================================================
+# Targets
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+# Targets to build the object files
+HH_BBT2017_doubleP.o: HH_BBT2017_doubleP.cpp
+	$(CPP) -c HH_BBT2017_doubleP.cpp -o HH_BBT2017_doubleP.o $(CXXFLAGS)
+
+iappDist_doubleP.o: iappDist_doubleP.cpp
+	$(CPP) -c iappDist_doubleP.cpp -o iappDist_doubleP.o $(CXXFLAGS)
+
+SpikeTrain_doubleP.o: SpikeTrain_doubleP.cpp
+	$(CPP) -c SpikeTrain_doubleP.cpp -o SpikeTrain_doubleP.o $(CXXFLAGS)
