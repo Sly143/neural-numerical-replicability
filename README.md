@@ -3,6 +3,7 @@ This project was implemented using C/C++ program language. The ODEs were solved 
 
 # Software requirements:
 - C/C++ compiler (ex: gcc)
+- Make builder
 - Boost C++ libraries (http://www.boost.org)
     ODEint module, to solving ordinary differential equations, is include in the distribution 
 
