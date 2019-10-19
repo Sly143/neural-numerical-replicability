@@ -8,7 +8,7 @@ This project was implemented using C/C++ program language. The ODEs were solved 
     ODEint module, to solving ordinary differential equations, is include in the distribution 
 
 The source code includes the following files:<br>
-ProjetTree
+Project Tree
   - Double precision
     - HH_BBT2017_doubleP.cpp
     - iappDist_doubleP.cpp
