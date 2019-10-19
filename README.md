@@ -30,11 +30,11 @@ ProjetTree
     - ./results
     
   - Boost Double precision
-    - HH_BBT2017_doubleBoost.cpp
-    - iappDist_doubleBoost.cpp
-    - iappDist_doubleBoost.h
-    - SpikeTrain_doubleBoost.cpp
-    - SpikeTrain_doubleBoost.h
+    - HH_BBT2017_Boost.cpp
+    - iappDist_Boost.cpp
+    - iappDist_Boost.h
+    - SpikeTrain_Boost.cpp
+    - SpikeTrain_Boost.h
     - MakefileMacLinux
     - MakefileWin
     - ./results
