@@ -20,11 +20,11 @@ ProjetTree
     - ./results
   
   - Long Double precision
-    - HH_BBT2017_longDouble.cpp
-    - iappDist_longDouble.cpp
-    - iappDist_longDouble.h
-    - SpikeTrain_longDouble.cpp
-    - SpikeTrain_longDouble.h
+    - HH_BBT2017_LongDouble.cpp
+    - iappDist_LongDouble.cpp
+    - iappDist_LongDouble.h
+    - SpikeTrain_LongDouble.cpp
+    - SpikeTrain_LongDouble.h
     - MakefileMacLinux
     - MakefileWin
     - ./results
