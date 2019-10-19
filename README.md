@@ -37,7 +37,20 @@ ProjetTree
     - MakefileMacLinux
     - MakefileWin
     - ./results
-
+  
+  - Figures
+    - Fig1_as.m
+    - Fig2_as.m
+    - Fig3_as.m
+    - Fig2_rp.m
+    - Fig3_rp.m
+    - Figure1.png
+    - Figure1_dt005.png
+    - Figure2.png
+    - Figure2_dt005.png
+    - Figure3.png
+    - Figure3_dt005.png
+    
 ***After set the environment with the _C++ compile_ and the _Boost library_***
 **For more informations about the code equations, check the _JCN_2019_Eqs_Parameters_**
 **How to compile**
