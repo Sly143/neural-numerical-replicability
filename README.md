@@ -14,6 +14,9 @@ ProjetTree
     - iappDist_double.h
     - SpikeTrain_double.cpp
     - SpikeTrain_double.h
+    - MakefileMacLinux
+    - MakefileWin
+    - ./results
   
   - Long Double precision
     - HH_BBT2017_longDouble.cpp
@@ -21,6 +24,9 @@ ProjetTree
     - iappDist_longDouble.h
     - SpikeTrain_longDouble.cpp
     - SpikeTrain_longDouble.h
+    - MakefileMacLinux
+    - MakefileWin
+    - ./results
     
   - Boost Double precision
     - HH_BBT2017_doubleBoost.cpp
@@ -28,7 +34,9 @@ ProjetTree
     - iappDist_doubleBoost.h
     - SpikeTrain_doubleBoost.cpp
     - SpikeTrain_doubleBoost.h
-
+    - MakefileMacLinux
+    - MakefileWin
+    - ./results
 
 ***After set the environment with the _C++ compile_ and the _Boost library_***
 **For more informations about the code equations, check the _JCN_2019_Eqs_Parameters_**
