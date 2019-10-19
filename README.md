@@ -9,25 +9,25 @@ This project was implemented using C/C++ program language. The ODEs were solved 
 The source code includes the following files:<br>
 ProjetTree
   - Double precision
-    - HH_BBT2017_doubleP.cpp
-    - iappDist_doubleP.cpp
-    - iappDist_doubleP.h
-    - SpikeTrain_doubleP.cpp
-    - SpikeTrain_doubleP.h
+    - HH_BBT2017_double.cpp
+    - iappDist_double.cpp
+    - iappDist_double.h
+    - SpikeTrain_double.cpp
+    - SpikeTrain_double.h
   
   - Long Double precision
-    - HH_BBT2017_longDoubleP.cpp
-    - iappDist_longDoubleP.cpp
-    - iappDist_longDoubleP.h
-    - SpikeTrain_longDoubleP.cpp
-    - SpikeTrain_longDoubleP.h
+    - HH_BBT2017_longDouble.cpp
+    - iappDist_longDouble.cpp
+    - iappDist_longDouble.h
+    - SpikeTrain_longDouble.cpp
+    - SpikeTrain_longDouble.h
     
   - Boost Double precision
-    - HH_BBT2017_doubleBoostP.cpp
-    - iappDist_doubleBoostP.cpp
-    - iappDist_doubleBoostP.h
-    - SpikeTrain_doubleBoostP.cpp
-    - SpikeTrain_doubleBoostP.h
+    - HH_BBT2017_doubleBoost.cpp
+    - iappDist_doubleBoost.cpp
+    - iappDist_doubleBoost.h
+    - SpikeTrain_doubleBoost.cpp
+    - SpikeTrain_doubleBoost.h
 
 
 ***After set the environment with the _C++ compile_ and the _Boost library_***
