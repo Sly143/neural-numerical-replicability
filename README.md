@@ -9,36 +9,16 @@ This project aims to provide tools to analyse the influence of numerical impreci
 
 The source code includes the following files:<br>
 Project Tree
-  - Double precision
-    - HH_BBT2017_doubleP.cpp
-    - iappDist_doubleP.cpp
-    - iappDist_doubleP.h
-    - SpikeTrain_doubleP.cpp
-    - SpikeTrain_doubleP.h
-    - MakefileMacLinux
-    - MakefileWin
-    - ./results
-  
-  - Long Double precision
-    - HH_BBT2017_LongDouble.cpp
-    - iappDist_LongDouble.cpp
-    - iappDist_LongDouble.h
-    - SpikeTrain_LongDouble.cpp
-    - SpikeTrain_LongDouble.h
-    - MakefileMacLinux
-    - MakefileWin
+  - Source Code
+    - checkActualPrecision.h
+    - HH_BBT2017_allP.cpp
+    - iappDist_allP.cpp
+    - iappDist_allP.h
+    - Makefile.win
+    - SpikeTrain_allP.cpp
+    - SpikeTrain_allP.h
     - ./results
     
-  - Boost Double precision
-    - HH_BBT2017_Boost.cpp
-    - iappDist_Boost.cpp
-    - iappDist_Boost.h
-    - SpikeTrain_Boost.cpp
-    - SpikeTrain_Boost.h
-    - MakefileMacLinux
-    - MakefileWin
-    - ./results
-  
   - Figures
     - Fig1_as.m
     - Fig2_as.m
