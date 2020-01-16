@@ -1,5 +1,5 @@
 # neural-numerical-replicability
-This project aims to provide tools to analyse the influence of numerical imprecision under different platforms in the context of neural computational replicability, taking as a case study a small neural network composed of Hodgkin-Huxley-type neurons. The simulated models and their parameters are described in JCN_2019_Eqs_Parameters.pdf file. The project was implemented using C/C++ program language. The Ordinary Differential Equations (ODEs) were solved using Runge–Kutta fourth-order method (RK4), implemented by Boost C++ library, specifically Boost.Numeric.Odeint module.
+This project aims to provide tools to analyse the influence of numerical imprecision under different platforms in the context of neural computational replicability, taking as a case study a small neural network composed of Hodgkin-Huxley-type neurons. The simulated models and their parameters are described in JCN_2019_Eqs_Parameters.pdf file. The project was implemented using C/C++ program language. The Ordinary Differential Equations (ODEs) were solved using Runge–Kutta fourth-order method (RK4), implemented by Boost C++ library, specifically Boost.Numeric.Odeint module. To see equations and parameters, check the file _JCN_2019_v4.0_appendix_Eqs_Parameters_
 
 # Software requirements:
 - C/C++ compiler (ex: gcc)
@@ -32,13 +32,14 @@ Project Tree
     - Figure3.png
     - Figure3_dt005.png
     
-***After set the environment with the _C++ compile_ and the _Boost library_***
-**For more informations about the code equations, check the _JCN_2019_v4.0_appendix_Eqs_Parameters_**
-**How to compile**
-1. Edit the make file *Makefile*, with the correct path for the compiler and Boost library. To use double, long double or Boost precision add or remove the comment lines (#) based on your choice. Then, execute the make command.
-2. Make sure that your HH_BBT2017_allP.exe file was created
-3. Make sure the result diretory exist
-4. For simulations with 100% excitatorys neurons with vInh = 70 mV (Figure 1 and Figure 2B) type the following line code:
+# How to compile
+1. Edit the make file *Makefile*
+   - path for the compiler and Boost library. 
+   - To use double, long double or Boost precision comment/uncomment lines (#) based on your choice. 
+2. Execute the make command.
+3. Make sure that your HH_BBT2017_allP.exe file was created
+4. Make sure the result diretory exist, otherwise create it. 
+5. For simulations with 100% excitatorys neurons with vInh = 70 mV (Figure 1 and Figure 2B) type the following line code:
 ```HH_BBT2017_allP.exe -pExcN 1.0 -vInh 70```
 
 - Then, case double precision was seleted, It will create four files in the results directory, :
@@ -47,7 +48,7 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES.txt
 	- HH_BBT_rk4_dt0100_100_0_vI_70_t8s_double_IappDES_Spikes.m
 
-5. For simulations with 80/20% Excitatory/Inhibitory with vInh = 70 mV (Figure 2C) type the following line code:
+6. For simulations with 80/20% Excitatory/Inhibitory with vInh = 70 mV (Figure 2C) type the following line code:
 ```HH_BBT2017_allP.exe -pExcN 0.8 -vInh 70```
 - Then, It will create four files inside the results directory:
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES,Epis.txt
@@ -55,7 +56,7 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES.txt
 	- HH_BBT_rk4_dt0100_100_20_vI_70_t8s_double_IappDES_Spikes.m
 
-5. ***For dt = 0.05, change the line 37 in HH_BBT2017_allP.cpp by 'const double dt = 0.05;'. The generated files will be renamed with dt050, for example: _HH_BBT_rk4_dt050_100,0,vI70,t=8s_double_IappDES,Epis.txt_***
+. ***For dt = 0.05, change the line 37 in HH_BBT2017_allP.cpp by 'const double dt = 0.05;'. The generated files will be renamed with dt050, for example: _HH_BBT_rk4_dt050_100,0,vI70,t=8s_double_IappDES,Epis.txt_***
 
 > **How compile the Figures**
 
