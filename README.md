@@ -9,7 +9,7 @@ This project aims to provide tools to analyse the influence of numerical impreci
 
 # The source code includes the following files:
 Project Tree
-  - Source Code <directory>
+  - SourceCode
     - checkActualPrecision.h
     - HH_BBT2017_allP.cpp
     - iappDist_allP.cpp
@@ -17,8 +17,7 @@ Project Tree
     - Makefile.win
     - SpikeTrain_allP.cpp
     - SpikeTrain_allP.h
-    - ./results <directory>
-  - Figures <directory>
+  - Figures
     - Fig1_as.m
     - Fig2_as.m
     - Fig3_as.m
@@ -33,13 +32,13 @@ Project Tree
   - JCN_2019_v4.0_appendix_Eqs_Parameters.pdf
   - README.md 
 	
-# How to compile the C++ source code
+# How to compile the C++ source code 
 1. Edit the make file *Makefile*
    - path for the compiler and Boost library. 
    - To use double, long double or Boost precision, you should comment/uncomment the lines (9-16) based on your choice. 
 2. Execute the make command.
 3. Make sure that your HH_BBT2017_allP.exe file was created
-4. Make sure the result diretory exist, otherwise create it. 
+4. Create a directory named results
 5. For simulations with 100% excitatorys neurons with vInh = 70 mV (Figure 1 and Figure 2B) type the following line code:
 ```HH_BBT2017_allP.exe -pExcN 1.0 -vInh 70```
 
