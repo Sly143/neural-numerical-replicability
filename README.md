@@ -30,7 +30,7 @@ Project Tree
     - Figure2_dt005.png
     - Figure3.png
     - Figure3_dt005.png
-  - JCN_2019_v4.0_appendix_Eqs_Parameters.docx
+  - JCN_2019_v4.0_appendix_Eqs_Parameters.pdf
   - Readme.md 
 	
 # How to compile the C++ source code
