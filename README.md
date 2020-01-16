@@ -9,8 +9,6 @@ This project aims to provide tools to analyse the influence of numerical impreci
 
 >>The source code includes the following files:<br>
 Project Tree
-  - JCN_2019_v4.0_appendix_Eqs_Parameters.docx
-  - Readme.md
   - Source Code <directory>
     - checkActualPrecision.h
     - HH_BBT2017_allP.cpp
@@ -20,7 +18,6 @@ Project Tree
     - SpikeTrain_allP.cpp
     - SpikeTrain_allP.h
     - ./results <directory>
-    
   - Figures <directory>
     - Fig1_as.m
     - Fig2_as.m
@@ -33,7 +30,8 @@ Project Tree
     - Figure2_dt005.png
     - Figure3.png
     - Figure3_dt005.png
-    
+  - JCN_2019_v4.0_appendix_Eqs_Parameters.docx
+  - Readme.md 
 # How to compile the C++ source code
 1. Edit the make file *Makefile*
    - path for the compiler and Boost library. 
@@ -58,7 +56,7 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES.txt
 	- HH_BBT_rk4_dt0100_100_20_vI_70_t8s_double_IappDES_Spikes.m
 
-Note: Case you set long double or Boost precision (check step 1), the name of your files will be:
+>>Note: Case you set long double or Boost precision (check step 1), the name of your files will be:
 	- *t=8s_long_double_*.txt
 	- *t=8s_boost_double_*.txt 
 	
