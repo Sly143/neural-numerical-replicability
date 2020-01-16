@@ -7,7 +7,7 @@ This project aims to provide tools to analyse the influence of numerical impreci
 - Boost C++ libraries (http://www.boost.org)<br>
     ODEint module, to solving ordinary differential equations, is include in the distribution 
 
-# The source code includes the following files:
+# The project code includes the following files:
 Project Tree
   - SourceCode
     - checkActualPrecision.h
