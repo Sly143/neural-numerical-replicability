@@ -57,8 +57,8 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100_20_vI_70_t8s_double_IappDES_Spikes.m
 
 >>Note: Case you set long double or Boost precision (check step 1), the name of your files will be:<br>
-	- \*t=8s_long_double_*.txt<br>
-	- \*t=8s_boost_double_*.txt<br> 
+	- \*t=8s_long_double_\*.txt<br>
+	- \*t=8s_boost_double_\*.txt<br> 
 	
 # How generate the figures
 ***After generated the files for each platform and each precision***
