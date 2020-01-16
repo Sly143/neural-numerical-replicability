@@ -7,7 +7,7 @@ This project aims to provide tools to analyse the influence of numerical impreci
 - Boost C++ libraries (http://www.boost.org)<br>
     ODEint module, to solving ordinary differential equations, is include in the distribution 
 
->>The source code includes the following files:<br>
+# The source code includes the following files:
 Project Tree
   - Source Code <directory>
     - checkActualPrecision.h
@@ -32,6 +32,7 @@ Project Tree
     - Figure3_dt005.png
   - JCN_2019_v4.0_appendix_Eqs_Parameters.docx
   - Readme.md 
+	
 # How to compile the C++ source code
 1. Edit the make file *Makefile*
    - path for the compiler and Boost library. 
@@ -56,9 +57,9 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES.txt
 	- HH_BBT_rk4_dt0100_100_20_vI_70_t8s_double_IappDES_Spikes.m
 
->>Note: Case you set long double or Boost precision (check step 1), the name of your files will be:
-	- *t=8s_long_double_*.txt
-	- *t=8s_boost_double_*.txt 
+>>Note: Case you set long double or Boost precision (check step 1), the name of your files will be:<br>
+	- /*t=8s_long_double_*.txt<br>
+	- /*t=8s_boost_double_*.txt<br> 
 	
 # How generate the figures
 ***After generated the files for each platform and each precision***
