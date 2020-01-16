@@ -35,7 +35,7 @@ Project Tree
 ***After set the environment with the _C++ compile_ and the _Boost library_***
 **For more informations about the code equations, check the _JCN_2019_v4.0_appendix_Eqs_Parameters_**
 **How to compile**
-1. Edit the make file *Makefile*, with the correct path for the compiler and Boost library. To use double, long double or Boost precision add or remove the comment lines bases on you choice. Then, execute the make command.
+1. Edit the make file *Makefile*, with the correct path for the compiler and Boost library. To use double, long double or Boost precision add or remove the comment lines (#) based on your choice. Then, execute the make command.
 2. Make sure that your HH_BBT2017_allP.exe file was created
 3. Make sure the result diretory exist
 4. For simulations with 100% excitatorys neurons with vInh = 70 mV (Figure 1 and Figure 2B) type the following line code:
