@@ -7,7 +7,7 @@ This project aims to provide tools to analyse the influence of numerical impreci
 - Boost C++ libraries (http://www.boost.org)<br>
     ODEint module, to solving ordinary differential equations, is include in the distribution 
 
-The source code includes the following files:<br>
+>>The source code includes the following files:<br>
 Project Tree
   - Source Code
     - checkActualPrecision.h
@@ -32,10 +32,10 @@ Project Tree
     - Figure3.png
     - Figure3_dt005.png
     
-# How to compile
+# How to compile the C++ source code
 1. Edit the make file *Makefile*
    - path for the compiler and Boost library. 
-   - To use double, long double or Boost precision comment/uncomment lines (#) based on your choice. 
+   - To use double, long double or Boost precision comment/uncomment the lines (9-16) based on your choice. 
 2. Execute the make command.
 3. Make sure that your HH_BBT2017_allP.exe file was created
 4. Make sure the result diretory exist, otherwise create it. 
@@ -56,11 +56,8 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES.txt
 	- HH_BBT_rk4_dt0100_100_20_vI_70_t8s_double_IappDES_Spikes.m
 
-. ***For dt = 0.05, change the line 37 in HH_BBT2017_allP.cpp by 'const double dt = 0.05;'. The generated files will be renamed with dt050, for example: _HH_BBT_rk4_dt050_100,0,vI70,t=8s_double_IappDES,Epis.txt_***
-
-> **How compile the Figures**
-
-***After generated the archives for each platform and each precision***
+# How generate the figures
+***After generated the files for each platform and each precision***
 - Figure 1
 1. Open the **Fig1_as.m** file from _figures_ directory on Matlab software.
 2. Set the variables 'path_to_directory' on the lines 5 (for Windows file), 18 (for MacOs file) and 31(for Linux file) for  each platform.
