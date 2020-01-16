@@ -32,7 +32,6 @@ Project Tree
     - Figure3_dt005.png
     
   - JCN_2019_v4.0_appendix_Eqs_Parameters.pdf
-  - README.md 
 	
 # How to compile the C++ source code 
 1. Edit the make file *Makefile*
@@ -66,7 +65,7 @@ Project Tree
 ***After generated the files for each platform and each precision***
 - Figure 1
 1. Open the **Fig1_as.m** file from _figures_ directory on Matlab software.
-2. Set the variables 'path_to_directory' on the lines 5 (for Windows file), 18 (for MacOs file) and 31(for Linux file) for  each platform.
+2. Set the variables 'path_to_directory' on the lines 5 (for Windows file), 18 (for MacOs file) and 31 (for Linux file) for  each platform.
 3. Verify that the names of the files read are the same within the directories. Line 6 for Windows, line 19 for MacOs and line 32 for Linux file.
 4. Compile the file **Fig1_as.m** to generated the Figure 1.
 
