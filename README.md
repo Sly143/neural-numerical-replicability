@@ -31,7 +31,7 @@ Project Tree
     - Figure3.png
     - Figure3_dt005.png
   - JCN_2019_v4.0_appendix_Eqs_Parameters.pdf
-  - Readme.md 
+  - README.md 
 	
 # How to compile the C++ source code
 1. Edit the make file *Makefile*
