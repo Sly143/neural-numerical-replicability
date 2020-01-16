@@ -9,7 +9,7 @@ This project aims to provide tools to analyse the influence of numerical impreci
 
 # The project code includes the following files:
 Project Tree
-  - SourceCode
+  - SourceCode directory
     - checkActualPrecision.h
     - HH_BBT2017_allP.cpp
     - iappDist_allP.cpp
@@ -17,18 +17,20 @@ Project Tree
     - Makefile.win
     - SpikeTrain_allP.cpp
     - SpikeTrain_allP.h
-  - Figures
+  - Figures directory
     - Fig1_as.m
     - Fig2_as.m
-    - Fig3_as.m
     - Fig2_rp.m
+    - Fig3_as.m
     - Fig3_rp.m
+    
     - Figure1.png
     - Figure1_dt005.png
     - Figure2.png
     - Figure2_dt005.png
     - Figure3.png
     - Figure3_dt005.png
+    
   - JCN_2019_v4.0_appendix_Eqs_Parameters.pdf
   - README.md 
 	
