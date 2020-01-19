@@ -17,7 +17,7 @@ Project Tree
     - Makefile.win
     - SpikeTrain_allP.cpp
     - SpikeTrain_allP.h
-  - Figures directory
+  - figures directory
     - Fig1_as.m
     - Fig2_as.m
     - Fig2_rp.m
