@@ -1,4 +1,4 @@
-# neural-numerical-replicability
+# Neural-numerical-replicability
 This project aims to provide tools to analyse the influence of numerical imprecision under different platforms in the context of neural computational replicability, taking as a case study a small neural network composed of Hodgkin-Huxley-type neurons. The simulated model and their parameters are described in _JCN_2019_v4.0_appendix_Eqs_Parameters.pdf_ file. The project was implemented using C/C++ program language. The Ordinary Differential Equations (ODEs) were solved using Runge–Kutta fourth-order method (RK4), implemented by Boost C++ library, specifically Boost.Numeric.Odeint module.
 
 # Software requirements:
