@@ -38,8 +38,7 @@ Project Tree
    - To use double, long double or Boost precision, you should comment/uncomment the lines (9-16) based on your choice. 
 2. Execute the make command.
 3. Make sure that your HH_BBT2017_allP.exe file was created
-4. Create a directory named "results", as the same of here (with lowercase r)
-5. For simulations with 100% excitatorys neurons with vInh = 70 mV (Figure 1 and Figure 2B) type the following line code:
+4. For simulations with 100% excitatorys neurons with vInh = 70 mV (Figure 1 and Figure 2B) type the following line code:
 ```HH_BBT2017_allP.exe -pExcN 1.0 -vInh 70```
 
 - Then, case double precision was seleted, It will create four files in the results directory, :
@@ -48,7 +47,7 @@ Project Tree
 	- HH_BBT_rk4_dt0100_100,0,vI70,t=8s_double_IappDES.txt
 	- HH_BBT_rk4_dt0100_100_0_vI_70_t8s_double_IappDES_Spikes.m
 
-6. For simulations with 80/20% Excitatory/Inhibitory with vInh = 70 mV (Figure 2C) type the following line code:
+5. For simulations with 80/20% Excitatory/Inhibitory with vInh = 70 mV (Figure 2C) type the following line code:
 ```HH_BBT2017_allP.exe -pExcN 0.8 -vInh 70```
 - Then, It will create four files inside the results directory:
 	- HH_BBT_rk4_dt0100_100,20,vI70,t=8s_double_IappDES,Epis.txt
