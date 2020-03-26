@@ -23,7 +23,6 @@
 
 #include <sys/stat.h>
 #include <stdio.h>
-#include <io.h>
 
 #include <boost/array.hpp>
 #include <boost/numeric/odeint.hpp>
